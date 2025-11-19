@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem/issues"
   },
-  "homepage": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem#readme"
+  "homepage": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
