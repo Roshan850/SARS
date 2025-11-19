@@ -1,0 +1,20 @@
+{
+  "name": "smartagriculturalequipmentrentalsystem",
+  "version": "1.0.0",
+  "description": "The Smart Agricultural Equipment Rental System is a digital platform designed to help small and marginal farmers by providing instant access to essential agricultural machinery. It connects farmers with local owners of tractors, harvesters, seed drills, and other equipment through a mobile or web-based application. The aim is to offer a simple, transparent, and affordable way for farmers to rent machinery during critical farming seasons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem/issues"
+  },
+  "homepage": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem#readme"
+}
