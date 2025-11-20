@@ -1,2 +1,0 @@
-# SmartAgriculturalEquipmentRentalSystem
-The Smart Agricultural Equipment Rental System is a digital platform designed to help small and marginal farmers by providing instant access to essential agricultural machinery. It connects farmers with local owners of tractors, harvesters, seed drills, and other equipment through a mobile or web-based application. The aim is to offer a simple, transparent, and affordable way for farmers to rent machinery during critical farming seasons.

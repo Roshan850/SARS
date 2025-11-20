@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Roshan850/SmartAgriculturalEquipmentRentalSystem#readme",
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "express": "^5.1.0",
     "nodemon": "^3.1.11"
   }
