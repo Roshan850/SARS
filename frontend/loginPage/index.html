@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#06aa5e">
+    <!-- 'theme-color' is not supported by Firefox/Opera; provide vendor fallback -->
+    <meta name="msapplication-TileColor" content="#06aa5e">
     <meta name="msapplication-navbutton-color" content="#06aa5e">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -19,8 +20,8 @@
             <h1 class="company">Farme Machine Connect <sup>&trade;</sup></h1>
             <img src="./assets/images/signUp.svg" class="illustration" alt="">
             <p class="quote">Sign up today to get exciting offers..!</p>
-            <a href="#btm" class="mobile-btm-nav">
-                <img src="./assets/images/dbl-arrow.png" alt="">
+            <a href="#btm" class="mobile-btm-nav" title="Scroll to form">
+                <img src="./assets/images/dbl-arrow.png" alt="Scroll to form">
             </a>
         </div>
         <form action="" method="">
@@ -31,8 +32,8 @@
                 </h1>
     
                 <div class="input-container">
-                    <label for="f-name"></label>
-                    <input type="text" name="f-name" id="f-name" required>
+                    <label for="f-name">First name</label>
+                    <input type="text" name="f-name" id="f-name" placeholder="First name" required>
                     <span>
                         First name
                     </span>
@@ -40,8 +41,8 @@
                 </div>
     
                 <div class="input-container">
-                    <label for="l-name"></label>
-                    <input type="text" name="l-name" id="l-name" required>
+                    <label for="l-name">Last name</label>
+                    <input type="text" name="l-name" id="l-name" placeholder="Last name" required>
                     <span>
                         Last name
                     </span>
@@ -49,9 +50,8 @@
                 </div>
     
                 <div class="input-container">
-                    <label for="mail">
-                    </label>
-                    <input type="email" name="mail" id="mail" required>
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" id="mail" placeholder="E-mail" required>
                     <span>
                         E-mail
                     </span>
@@ -59,30 +59,29 @@
                 </div>
     
                 <div class="input-container">
-                    <label for="phone">
-                    </label>
-                    <input type="tel" name="phone" id="phone" required>
+                <div class="input-container">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone" required>
                     <span>Phone</span>
                     <div class="error"></div>
                 </div>
-    
                 <div class="input-container">
                     <label for="user-password"></label>
-                    <input type="password" name="user-password" id="user-password" class="user-password" required>
+                <div class="input-container">
+                    <label for="user-password">Password</label>
+                    <input type="password" name="user-password" id="user-password" class="user-password" placeholder="Password" required>
                     <span>Password</span>
                     <div class="error"></div>
                 </div>
-
-                <div class="input-container">
                     <label for="user-password-confirm"></label>
-                    <input type="password" name="user-password-confirm" id="user-password-confirm" class="password-confirmation" required>
+                <div class="input-container">
+                    <label for="user-password-confirm">Confirm Password</label>
+                    <input type="password" name="user-password-confirm" id="user-password-confirm" class="password-confirmation" placeholder="Confirm Password" required>
                     <span>
                         Confirm Password
                     </span>
                     <div class="error"></div>
                 </div>
-
-                <div id="btm">
                     <button type="submit" class="submit-btn">Create Account</button>
                     <p class="btm-text">
                         Already have an account..? <span class="btm-text-highlighted">  Log in</span>

@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+
 const { 
   createEquipment,
   getAllEquipment,
@@ -8,10 +9,21 @@ const {
   deleteEquipment
 } = require("../controllers/equipmentController");
 
-router.post("/create", createEquipment);
-router.get("/", getAllEquipment);
-router.get("/:id", getEquipmentById);
-router.put("/:id", updateEquipment);
-router.delete("/:id", deleteEquipment);
+
+router.route("/")
+  .get(getAllEquipment)
+  .post(createEquipment);    
+
+
+router.route("/create")
+  .post(createEquipment);
+
+
+router.route("/:id")
+  .get(getEquipmentById)
+  .put(updateEquipment)
+  .delete(deleteEquipment);
 
 module.exports = router;
+
+
